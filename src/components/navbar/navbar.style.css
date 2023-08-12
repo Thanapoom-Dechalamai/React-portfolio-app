@@ -1,0 +1,13 @@
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #ebe3ce;
+}
+
+.nav-item .nav-link {
+    font-weight: bold;
+}
+
+.navbar-custom {
+    background-color: rgb(143, 95, 65);
+}

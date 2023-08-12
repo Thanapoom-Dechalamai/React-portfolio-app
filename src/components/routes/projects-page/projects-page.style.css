@@ -1,0 +1,16 @@
+.project-header {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    height: 50px;
+}
+
+.project-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    font-weight: bold;
+}
+
+.project-img img {
+    width: 100%;
+}

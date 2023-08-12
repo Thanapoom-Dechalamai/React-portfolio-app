@@ -1,0 +1,27 @@
+.homepage {
+    margin-top: 2vh;
+    height: 80vh;
+}
+
+.pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hello {
+    background-color: rgb(206, 157, 127);
+    color: #ebe3ce;
+}
+
+.intro {
+    padding-left: 2rem;
+}
+
+.text-container {
+    color: rgb(143, 95, 65);
+}
+
+
+
+/* home-page.style.css */

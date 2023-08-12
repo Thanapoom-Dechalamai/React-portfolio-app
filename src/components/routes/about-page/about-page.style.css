@@ -1,0 +1,60 @@
+.container {
+    color: #704214;
+}
+
+.container p {
+    font-weight: bold;
+}
+
+.container h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+.progress {
+    background-color: rgb(249, 243, 243);
+}
+
+.progress-bar {
+    background-color: rgb(206, 157, 127);
+    font-weight: bold;
+}
+
+.about-me-section {
+    margin-top: 4vh;
+    /* Adjust the value as needed to make the text larger */
+    /* Add any other custom styles for the "About Me" section here */
+}
+
+.my-self-section {
+    margin-top: 5rem;
+}
+
+.experiences-section {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.about-me-header {
+    /* border-bottom: 2px solid #704214; */
+    height: 50px;
+
+}
+
+.highlights-brown {
+    padding-left: 5px;
+    background-color: rgb(206, 157, 127);
+    color: #ebe3ce;
+}
+
+.position-text {
+    height: 35px;
+    width: auto;
+}
+
+.about-me-content {
+    padding-left: 1rem;
+    /* left: 52; */
+}
