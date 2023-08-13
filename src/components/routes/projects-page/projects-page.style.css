@@ -1,16 +1,96 @@
 .project-header {
     margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
     height: 50px;
+
+}
+
+.project-header-text {
+    font-size: 2rem;
 }
 
 .project-con {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1rem;
     font-weight: bold;
 }
 
-.project-img img {
+.project-img {
+    position: relative;
     width: 100%;
+    padding-bottom: 65%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.project-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.type-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+/* Style for the select element itself */
+.custom-select {
+    color: white;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+
+.project-tags {
+    margin-right: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f99735;
+    color: white;
+    padding: 3px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.modal-dialog {
+    min-width: 60vw
+}
+
+.youtube-clip {
+    height: 50vh;
+    width: 100%;
+}
+
+.project-details {
+    margin-top: 1rem;
+}
+
+.project-details p {
+    margin-bottom: 2rem;
 }

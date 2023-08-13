@@ -1,0 +1,38 @@
+footer {
+    background-color: rgb(143, 95, 65);
+    color: white;
+    padding: 10px 0;
+}
+
+.logo-con {
+    margin-left: 1rem;
+}
+
+.logo {
+    display: inline-block;
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.contact-button img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    opacity: .75;
+    transition: transform 0.2s ease-in-out;
+    /* border: 2px solid rgb(255, 228, 207); */
+}
+
+.contact-button img:hover {
+    transform: scale(1.1);
+    opacity: 1
+}
+
+.fa {
+    border: 3px solid rgb(255, 255, 255);
+}

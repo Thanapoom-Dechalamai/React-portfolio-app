@@ -18,14 +18,6 @@ body {
   /* Other styles for the body, such as font-family, font-size, etc. */
 }
 
-footer {
-  left: 0;
-  bottom: 0;
-  height: 40px;
-  width: 100%;
-  overflow: hidden;
-}
-
 .App {
   text-align: center;
 }

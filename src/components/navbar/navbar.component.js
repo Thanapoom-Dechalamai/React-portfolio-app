@@ -6,7 +6,7 @@ const Navbar = () =>
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
-                <a className="navbar-brand fs-3 ms-3 ms-sm-4 ms-lg-5" href="/">TD</a>
+                <a className="navbar-brand fs-3 ms-3 ms-sm-4 ms-lg-5" href="/">ThDec</a>
                 <button className="navbar-toggler me-3 me-sm-4 me-lg-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -21,9 +21,6 @@ const Navbar = () =>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="projects">Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="resume">Resume</a>
                         </li>
                     </ul>
                 </div>

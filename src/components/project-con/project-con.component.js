@@ -8,9 +8,9 @@ const ProjectContainer = (props) =>
     return (
         <div className="project-con">
             {
-                projects?.map((project, index) =>
+                projects?.map((project) =>
                 (
-                    <ProjectItem key={index} project={project} />
+                    <ProjectItem key={project.id} project={project} />
                 ))
             }
         </div>
