@@ -6,7 +6,7 @@ const ProjectContainer = (props) =>
     const { projects } = props;
 
     return (
-        <div className="project-con">
+        <div className="project-con animate__animated animate__fadeInUp">
             {
                 projects?.map((project) =>
                 (

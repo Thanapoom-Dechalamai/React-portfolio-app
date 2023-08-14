@@ -23,7 +23,7 @@ const ProjectItem = (props) =>
                     ) : project.type === 2 ? (
                         <div className="tag rounded-5">Game</div>
                     ) : (
-                        <div></div>
+                        <></>
                     )}
                 </div>
                 <div className="project-title">{project.title}</div>

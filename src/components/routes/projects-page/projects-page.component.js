@@ -3,6 +3,7 @@ import Select from 'react-select';
 import ProjectContainer from '../../project-con/project-con.component';
 import todoImg from '../../../imgs/project-todo-list.png';
 import './projects-page.style.css';
+import 'animate.css';
 
 const ProjectsPage = () =>
 {
@@ -27,6 +28,16 @@ const ProjectsPage = () =>
                 githubUrl: "https://github.com/Thanapoom-Dechalamai/React-todolist-app",
                 demoUrl: "https://superb-arithmetic-950198.netlify.app/",
                 type: 1
+            },
+            {
+                id: 2,
+                title: "Project A",
+                description: "Hellooooooooo!",
+                image: "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+                embedId: "erLvLQF6ROQ?list=RDerLvLQF6ROQ",
+                githubUrl: "https://github.com/Thanapoom-Dechalamai/React-todolist-app",
+                demoUrl: "https://superb-arithmetic-950198.netlify.app/",
+                type: 2
             }
         ];
         setProjects(initialProjects);
@@ -48,7 +59,8 @@ const ProjectsPage = () =>
             ':hover': {
                 borderColor: "#B47855",
                 boxShadow: "0 0 0 1px #B47855"
-            }
+            },
+            fontWeight: 'normal'
         }),
         option: (provided, state) => ({
             ...provided,
@@ -78,28 +90,31 @@ const ProjectsPage = () =>
             ...provided,
             backgroundColor: 'transparent', // Remove the white space background
             boxShadow: 'none', // Remove the default box shadow
+            marginTop: '0'
         }),
     };
 
     return (
-        <div className="container min-vh-100">
-            <div className="project-header highlights-brown">
+        <main className="container min-vh-100">
+            <section className="project-header highlights-brown animate__animated animate__fadeInDown">
                 <div className='project-header-text'>
                     Projects
                 </div>
-            </div>
-            <div className="type-filter">
+            </section>
+            <section className="type-filter animate__animated animate__fadeInDown">
                 <label htmlFor="filter">Type:</label>
                 <Select
                     options={options}
                     className="custom-select"
                     styles={customStyles}
                     onChange={onSelectType}
+                    menuPortalTarget={document.body}
                 />
-            </div>
-            <ProjectContainer
-                projects={filteredProjects} />
-        </div>
+            </section>
+            <section className='project-con-section'>
+                <ProjectContainer projects={filteredProjects} />
+            </section>
+        </main>
     );
 };
 

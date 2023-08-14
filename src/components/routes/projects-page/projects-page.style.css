@@ -78,8 +78,28 @@
     cursor: pointer;
 }
 
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .modal-dialog {
-    min-width: 60vw
+    min-width: 60vw;
+}
+
+.modal-content {
+    background-color: #ebe3ce;
+    border-radius: 1.2rem;
+}
+
+.modal-header {
+    background-color: rgb(143, 95, 65);
+    color: white;
+    border-start-start-radius: 1rem;
+    border-start-end-radius: 1rem;
+}
+
+.modal-body {
+    padding: 2rem;
 }
 
 .youtube-clip {
@@ -93,4 +113,69 @@
 
 .project-details p {
     margin-bottom: 2rem;
+}
+
+.btn-logo {
+    width: 1rem;
+    height: 1rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(143, 95, 65);
+    border-color: rgb(143, 95, 65);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(130, 86, 58);
+    border-color: rgb(130, 86, 58);
+}
+
+.btn-primary:focus,
+.btn-primary:active:focus {
+    color: #fff;
+    background-color: rgb(130, 86, 58);
+    border-color: rgb(130, 86, 58);
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-github {
+    color: #fff;
+    background-color: rgb(182 100 49);
+    border-color: rgb(182 100 49);
+}
+
+.btn-github:hover {
+    color: #fff;
+    background-color: rgb(163, 90, 45);
+    border-color: rgb(163, 90, 45);
+}
+
+.btn-github:focus,
+.btn-github:active:focus {
+    color: #fff;
+    background-color: rgb(163, 90, 45);
+    border-color: rgb(163, 90, 45);
+    outline: none;
+    box-shadow: none;
+}
+
+.description-header {
+    margin-right: 25rem;
+}
+
+.description-content p {
+    margin-right: 25rem;
+    font-weight: normal;
+}
+
+.project-con-section .animate__animated {
+    animation-fill-mode: none;
+    -webkit-animation-fill-mode: none;
+}
+
+.project-item .animate__animated {
+    animation-duration: .5s
 }

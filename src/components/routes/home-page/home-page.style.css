@@ -13,10 +13,12 @@
 .hello {
     background-color: rgb(206, 157, 127);
     color: #ebe3ce;
+    font-weight: bold;
 }
 
-.intro {
+.intro h1 {
     padding-left: 2rem;
+    font-weight: bold;
 }
 
 .text-container {
