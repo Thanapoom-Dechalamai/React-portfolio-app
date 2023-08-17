@@ -111,7 +111,7 @@ const ProjectsPage = () =>
                     menuPortalTarget={document.body}
                 />
             </section>
-            <section className='project-con-section'>
+            <section className='project-con-section animate__animated animate__fadeInUp'>
                 <ProjectContainer projects={filteredProjects} />
             </section>
         </main>

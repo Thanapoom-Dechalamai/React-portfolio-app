@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ProjectItem from '../project-item/project-item.component';
 
 const ProjectContainer = (props) =>
 {
     const { projects } = props;
+    useEffect(() =>
+    {
 
+    }, [projects.length]);
     return (
-        <div className="project-con animate__animated animate__fadeInUp">
+        <div className="project-con">
             {
                 projects?.map((project) =>
                 (

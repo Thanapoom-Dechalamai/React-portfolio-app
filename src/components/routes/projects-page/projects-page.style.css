@@ -171,7 +171,7 @@
     font-weight: normal;
 }
 
-.project-con-section .animate__animated {
+.project-con-section {
     animation-fill-mode: none;
     -webkit-animation-fill-mode: none;
 }
