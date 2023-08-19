@@ -13,6 +13,7 @@
 
 .about-me-con {
     margin-top: 4vh;
+    min-height: 90vh;
 }
 
 .experiences-section {
@@ -124,7 +125,16 @@
     object-fit: contain;
 }
 
+.stack-wrap {
+    margin-top: 1rem;
+}
+
 @media only screen and (max-width: 480px) {
+
+    .experiences-section {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
 
     /* Your styles for extra small screens here */
     .stack-card {
@@ -136,7 +146,7 @@
         border-radius: 15px;
         padding: 15px;
         transition: all 0.2s;
-        opacity: .85;
+        opacity: .65;
     }
 
     .stack-card:hover {
@@ -150,6 +160,11 @@
         margin-left: -0.15rem;
         object-fit: contain;
     }
+
+    .stack-wrap {
+        margin-top: 0rem;
+    }
+
 }
 
 @-webkit-keyframes pulse {

@@ -24,9 +24,13 @@ const About = () =>
                     <section className="row my-self-section animate__animated animate__fadeInUp">
                         <h3 className='col-12 col-lg-4'>My self</h3>
                         <div className="col-2 col-lg-1"></div>
-                        <p className='col-10 col-lg-7 pt-2 pt-lg-0'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores ad, consectetur voluptates dicta in adipisci aspernatur velit quae placeat
-                            eaque officiis harum ipsum quam nihil corrupti et? Quibusdam repudiandae, quas ea vel suscipit eligendi facere. Odit laborum sint impedit sapiente
-                            odio cumque saepe! Ducimus officia esse quos a. Asperiores, nam.
+                        <p className='col-10 col-lg-7 pt-2 pt-lg-0'>
+                            Hello! I'm Stamp, 18 years old. I started learning to program around
+                            the age of 14 to create games. That was the beginning that gave me the opportunity to work
+                            since I was 16 years old and dropped out of school. After collecting knowledge and experience
+                            for almost 1 year, I decided to come back to study and try something new. By starting to learn
+                            about web development, especially the back-end. You can see my work in the Projects section.
+                            Thank you for visiting the site!
                         </p>
                     </section>
 
@@ -35,8 +39,8 @@ const About = () =>
                         <div className='col-12 col-lg-4'>
                             <h3 className=''>Skills</h3>
                         </div>
-                        <div className="col-2 col-lg-1"></div>
-                        <div className='col-9 col-lg-6 pt-4 pt-sm-3 pt-md-0'>
+                        <div className="col-lg-1"></div>
+                        <div className='stack-wrap col-12 col-lg-6 pt-4 pt-sm-3 pt-md-0'>
                             <div className="stack-con d-flex flex-wrap">
                                 <div className="stack-card" title="Unity">
                                     <img src={unityLogo} alt="Unity" className='unity-logo' />
@@ -66,36 +70,6 @@ const About = () =>
                                     <img src={cssLogo} alt="CSS3" className='css-logo' />
                                 </div>
                             </div>
-                            {/* <div>
-                                <h5><strong>Unity</strong> (Advanced)</h5>
-                                <div className="progress">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: "75%" }}></div>
-                                </div>
-                            </div>
-                            <div className='mt-3'>
-                                <h5><strong>React.js</strong> (Novice)</h5>
-                                <div className="progress">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: "45%" }}></div>
-                                </div>
-                            </div>
-                            <div className='mt-3'>
-                                <h5><strong>Node.js</strong> (Intermediate)</h5>
-                                <div className="progress">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: "60%" }}></div>
-                                </div>
-                            </div>
-                            <div className='mt-3'>
-                                <h5><strong>C#</strong> (Advanced)</h5>
-                                <div className="progress">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: "85%" }}></div>
-                                </div>
-                            </div>
-                            <div className='mt-3'>
-                                <h5><strong>Javascript</strong> (Intermediate)</h5>
-                                <div className="progress">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: "60%" }}></div>
-                                </div>
-                            </div> */}
                         </div>
                     </section>
 
@@ -109,10 +83,10 @@ const About = () =>
                             <p>Multiverse Expert CO,. LTD. <br /> Jan 2022 - Nov 2022 <br /> Annual Salary: THB 40,000.</p>
                             <ul>
                                 <li>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eligendi cupiditate praesentium, dolorem explicabo doloremque!</p>
+                                    <p>Developed metaverse core system and was responsible for all projects related to the metaverse.</p>
                                 </li>
                                 <li>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eligendi cupiditate praesentium, dolorem explicabo doloremque!</p>
+                                    <p>Focused on full-stack development, Good communication works well with the back-end and others</p>
                                 </li>
                             </ul>
                         </div>
