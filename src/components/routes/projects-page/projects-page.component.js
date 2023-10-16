@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Select from 'react-select';
 import ProjectContainer from '../../project-con/project-con.component';
-import todoImg from '../../../imgs/project-todo-list.png';
+import freespaceImg from '../../../imgs/freespace-preview.png';
 import './projects-page.style.css';
 import 'animate.css';
 
@@ -21,24 +21,14 @@ const ProjectsPage = () =>
         const initialProjects = [
             {
                 id: 1,
-                title: "To-Do List App",
-                description: "To-Do List App",
-                image: todoImg,
-                embedId: "393C3pr2ioY",
-                githubUrl: "https://github.com/Thanapoom-Dechalamai/React-todolist-app",
-                demoUrl: "https://superb-arithmetic-950198.netlify.app/",
+                title: "FreeSpace",
+                description: "FreeSpace is social media web application, I created this site because I love using threads and I wanted to try creating a full stack project to learn and get better at it. It took me about two weeks to build and it was quite difficult. But I still pay attention to details. Hope you guys like it.",
+                image: freespaceImg,
+                githubUrl: "https://github.com/Thanapoom-Dechalamai/MERN-threads-clone",
+                demoUrl: "https://freespace.vercel.app/",
                 type: 1
-            },
-            {
-                id: 2,
-                title: "Project A",
-                description: "Hellooooooooo!",
-                image: "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-                embedId: "erLvLQF6ROQ?list=RDerLvLQF6ROQ",
-                githubUrl: "https://github.com/Thanapoom-Dechalamai/React-todolist-app",
-                demoUrl: "https://superb-arithmetic-950198.netlify.app/",
-                type: 2
             }
+
         ];
         setProjects(initialProjects);
     }, []);

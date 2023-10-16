@@ -125,6 +125,13 @@
     object-fit: contain;
 }
 
+.mongodb-logo {
+    width: 100%;
+    height: 100%;
+    /* padding: 2.5px; */
+    object-fit: contain;
+}
+
 .stack-wrap {
     margin-top: 1rem;
 }

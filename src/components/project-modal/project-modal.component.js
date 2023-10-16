@@ -16,13 +16,7 @@ const ProjectModal = ({ project, showModal, toggleModal }) =>
                         </div>
                         <div className="modal-body h-auto">
                             <div className="youtube-clip">
-                                <iframe
-                                    width="100%"
-                                    height="100%"
-                                    src={`https://www.youtube.com/embed/${project.embedId}`}
-                                    title="YouTube Video"
-                                    allowFullScreen
-                                ></iframe>
+                                <img src={project.image} alt={project.title} width="100%" height="100%" />
                             </div>
                             <div className="project-details">
                                 <div className="description-header highlights-brown">

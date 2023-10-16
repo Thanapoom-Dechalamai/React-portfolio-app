@@ -2,6 +2,7 @@ import './about-page.style.css';
 import unityLogo from '../../../imgs/Unity-Logo-White.png';
 import reactLogo from '../../../imgs/react_logo.png';
 import nodeLogo from '../../../imgs/node_logo.png';
+import mongodbLogo from '../../../imgs/mongodb.png';
 import mysqlLogo from '../../../imgs/mysql_logo.png';
 import bsLogo from '../../../imgs/bootstrap_logo.png';
 import csLogo from '../../../imgs/cs_logo.png';
@@ -50,6 +51,9 @@ const About = () =>
                                 </div>
                                 <div className="stack-card" title='Node.js'>
                                     <img src={nodeLogo} alt="Node.js" className='node-logo' />
+                                </div>
+                                <div className="stack-card" title='MongoDB'>
+                                    <img src={mongodbLogo} alt="MongoDB" className='mongodb-logo' />
                                 </div>
                                 <div className="stack-card" title='MySQL'>
                                     <img src={mysqlLogo} alt="MySQL" className='mysql-logo' />
