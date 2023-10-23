@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import Select from 'react-select';
 import ProjectContainer from '../../project-con/project-con.component';
 import freespaceImg from '../../../imgs/freespace-preview.png';
+import populationImg from '../../../imgs/population-growth-preview.png';
 import './projects-page.style.css';
 import 'animate.css';
 
@@ -12,7 +13,6 @@ const ProjectsPage = () =>
 
     const onSelectType = (taget) =>
     {
-        console.log(taget);
         setSelectedType(Number(taget?.value));
     };
 
@@ -26,6 +26,15 @@ const ProjectsPage = () =>
                 image: freespaceImg,
                 githubUrl: "https://github.com/Thanapoom-Dechalamai/MERN-threads-clone",
                 demoUrl: "https://freespace.vercel.app/",
+                type: 1
+            },
+            {
+                id: 2,
+                title: "Population growth",
+                description: "On this page you will find data, charts, and text about how our total population growth has changed between 1950 and 2021. How has this changed? All population information is taken from a database and displayed as a chart.",
+                image: populationImg,
+                githubUrl: "https://github.com/Thanapoom-Dechalamai/population",
+                demoUrl: "https://population-silk.vercel.app/",
                 type: 1
             }
 
