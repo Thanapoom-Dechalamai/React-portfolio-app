@@ -26,7 +26,7 @@ const About = () =>
                         <h3 className='col-12 col-lg-4'>My self</h3>
                         <div className="col-2 col-lg-1"></div>
                         <p className='col-10 col-lg-7 pt-2 pt-lg-0'>
-                            Hello! I'm Stamp, 18 years old. I started learning to program around
+                            Hello! I'm Stamp, I started learning to program around
                             the age of 14 to create games. That was the beginning that gave me the opportunity to work
                             since I was 16 years old and dropped out of school. After collecting knowledge and experience
                             for almost 1 year, I decided to come back to study and try something new. By starting to learn
